@@ -6,5 +6,5 @@ export class Usercards {
     address!:string;
     designation!:string;
     academy!:string;
-
+    password!:string;
 }

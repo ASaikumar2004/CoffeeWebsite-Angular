@@ -6,7 +6,7 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class UsercardsService {
-  private baseurl="";
+  private baseurl="assets/usercards.json";
 
   constructor(private http:HttpClient) { }
 

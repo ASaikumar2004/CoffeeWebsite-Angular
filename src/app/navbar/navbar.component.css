@@ -1,0 +1,23 @@
+.navbar{
+    top: 0;
+    width: 100%;
+    position: fixed;
+    background-color: rgb(83, 4, 4);
+}
+.nav-img img{
+    max-width: 15%;
+    margin: 0% 7%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    margin: 0 18px;
+    color: white;
+    padding-top: 3%;
+    font-family: 'roboto',sans-serif;
+    
+}
+button{
+    margin-right: 4%;
+}

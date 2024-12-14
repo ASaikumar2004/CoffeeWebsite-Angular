@@ -6,11 +6,25 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { UsercardsComponent } from './usercards/usercards.component'
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { NavbarComponent } from './navbar/navbar.component';
+import { LoginComponent } from './login/login.component';
+import { AboutmintComponent } from './aboutmint/aboutmint.component';
+import { OurcoffeesComponent } from './ourcoffees/ourcoffees.component';
+import { BlogComponent } from './blog/blog.component';
+import { CouroselComponent } from './courosel/courosel.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    UsercardsComponent
+    UsercardsComponent,
+    WelcomeComponent,
+    NavbarComponent,
+    LoginComponent,
+    AboutmintComponent,
+    OurcoffeesComponent,
+    BlogComponent,
+    CouroselComponent
   ],
   imports: [
     BrowserModule,
