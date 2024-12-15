@@ -14,6 +14,8 @@ const routes: Routes = [
   {path:'ourcoffees',component:OurcoffeesComponent},
   {path:'blog',component:BlogComponent},
   {path:'login',component:LoginComponent}
+
+  // wildcard routing
 ];
 
 @NgModule({

@@ -1,12 +1,38 @@
-<div class="container">
-    <div class="row">
-        <div class="col-md-4">
-            <div class="card" *ngFor="let record of records">
-                <h1>{{record.name}}</h1>
-                <h1>{{record.phonenumber}}</h1>
-                <h1>{{record.designation}}</h1>
-                <p>{{record.address}}</p>         
-            </div>
-        </div>
-    </div>
+<div class="heading" data-aos="faded-up">
+    <h1>Our Specials</h1>
+    <div class="line"></div>
 </div>
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card" data-aos="flip-up">
+            <img src="../../assets/coffeenuts.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Coffee</h5>
+              <p class="card-text">Coffee can have a variety of flavors, including sweet, sour, nutty, fruity, and more. The flavor of coffee can change as it cools.</p>
+              <button class="btn btn-warning">Explore More <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" data-aos="flip-up">
+            <img src="../../assets/desserts1.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Desserts</h5>
+              <p class="card-text">Dessert is a sweet food typically eaten after a meal, such as lunch or dinner.enjoy the Desserts with your love.</p>
+              <button class="btn btn-warning">Explore More <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" data-aos="flip-up">
+            <img src="../../assets/coffee.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Specials</h5>
+              <p class="card-text">Coffee can have a variety of flavors, including sweet, sour, nutty, fruity, and more. The flavor of coffee can change as it cools.</p>
+              <button class="btn btn-warning">Explore More <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+          </div>
+        </div>
+</div>
+

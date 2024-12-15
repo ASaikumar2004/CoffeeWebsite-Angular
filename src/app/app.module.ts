@@ -13,6 +13,7 @@ import { AboutmintComponent } from './aboutmint/aboutmint.component';
 import { OurcoffeesComponent } from './ourcoffees/ourcoffees.component';
 import { BlogComponent } from './blog/blog.component';
 import { CouroselComponent } from './courosel/courosel.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { CouroselComponent } from './courosel/courosel.component';
     AboutmintComponent,
     OurcoffeesComponent,
     BlogComponent,
-    CouroselComponent
+    CouroselComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,11 @@
 export class Usercards {
     id?:string;
+    src!:string;
+    alt!:string;
+    title!:string;
+    desc!:string;
+    desc1!:string;
+    button!:string;
     name!:string;
     email!:string;
     phonenumber!:string;

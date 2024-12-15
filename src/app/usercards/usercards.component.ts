@@ -15,4 +15,8 @@ export class UsercardsComponent {
     this.service.getall().subscribe(data => this.records = data)
   }
 
+  onclick(){
+    
+  }
+
 }

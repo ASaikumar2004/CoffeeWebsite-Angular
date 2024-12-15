@@ -1,8 +1,5 @@
 .navbar{
-    top: 0;
-    width: 100%;
-    position: fixed;
-    background-color: rgb(83, 4, 4);
+    background-color: rgb(83, 4, 4) !important;
 }
 .nav-img img{
     max-width: 15%;
@@ -11,13 +8,21 @@
 ul li{
     list-style: none;
     display: inline-block;
-    text-align: center;
     margin: 0 18px;
-    color: white;
     padding-top: 3%;
-    font-family: 'roboto',sans-serif;
-    
+    font-family: 'roboto',sans-serif;   
 }
 button{
     margin-right: 4%;
+}
+ul li a{
+    border-radius: 5px;
+    padding: 5px 10px;
+    border: 1px solid #5e5d5d;
+    text-decoration: none;
+    color: white;
+    transition: 0.7s;
+}
+ul li a:hover{
+    background-color: rgb(194, 194, 6);
 }
