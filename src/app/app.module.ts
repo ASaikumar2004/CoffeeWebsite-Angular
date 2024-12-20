@@ -15,6 +15,8 @@ import { BlogComponent } from './blog/blog.component';
 import { CouroselComponent } from './courosel/courosel.component';
 import { FooterComponent } from './footer/footer.component';
 import { AccodianComponent } from './accodian/accodian.component';
+import { CoffeesubcardsComponent } from './coffeesubcards/coffeesubcards.component';
+import { DessertsComponent } from './desserts/desserts.component';
 
 @NgModule({
   declarations: [
@@ -28,7 +30,9 @@ import { AccodianComponent } from './accodian/accodian.component';
     BlogComponent,
     CouroselComponent,
     FooterComponent,
-    AccodianComponent
+    AccodianComponent,
+    CoffeesubcardsComponent,
+    DessertsComponent
   ],
   imports: [
     BrowserModule,
