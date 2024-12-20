@@ -1,6 +1,4 @@
 import { Component } from '@angular/core';
-import { UsercardsService } from '../services/usercards.service';
-import { Usercards } from '../models/usercards';
 import { Router } from '@angular/router';
 
 @Component({
@@ -10,14 +8,14 @@ import { Router } from '@angular/router';
 })
 export class UsercardsComponent {
 
-  constructor(private route:Router) { }
+  constructor(private router:Router) { }
 
-  onclick(){
-    this.route.navigate(['/coffeesubcards'])
+  onclick():void{
+    this.router.navigate(['/coffeesubcards']);
   }
 
-  desserts(){
-    this.route.navigate(['/desserts'])
+  desserts():void{
+    this.router.navigate(['/desserts']);
   }
 
 }
