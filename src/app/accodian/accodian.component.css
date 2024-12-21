@@ -4,5 +4,8 @@
 
 .accordion{
     margin: 1% 10% 4%;
-
+}
+.accordion-button{
+    background-color: rgb(121, 121, 119);
+    border-radius: 10px !important
 }

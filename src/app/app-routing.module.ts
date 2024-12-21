@@ -5,6 +5,8 @@ import { AboutmintComponent } from './aboutmint/aboutmint.component';
 import { OurcoffeesComponent } from './ourcoffees/ourcoffees.component';
 import { BlogComponent } from './blog/blog.component';
 import { LoginComponent } from './login/login.component';
+import { CoffeesubcardsComponent } from './coffeesubcards/coffeesubcards.component';
+import { DessertsComponent } from './desserts/desserts.component';
 
 const routes: Routes = [
   // default routing
@@ -13,7 +15,11 @@ const routes: Routes = [
   {path:'aboutmint',component:AboutmintComponent},
   {path:'ourcoffees',component:OurcoffeesComponent},
   {path:'blog',component:BlogComponent},
-  {path:'login',component:LoginComponent}
+  {path:'login',component:LoginComponent},
+
+  // subcards routing components
+  {path:'coffeesubcards',component:CoffeesubcardsComponent},
+  { path:'desserts',component:DessertsComponent}
 
   // wildcard routing
 ];
