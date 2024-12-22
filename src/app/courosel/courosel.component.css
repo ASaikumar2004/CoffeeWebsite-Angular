@@ -1,5 +1,5 @@
 .banner{
-    background-image: radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://png.pngtree.com/thumb_back/fh260/background/20231228/pngtree-vector-illustration-of-a-beautifully-written-coffee-quote-on-a-textured-image_13916038.png");
+    background-image: radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../../assets/coffeeimages/welcome1image.avif");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -24,18 +24,4 @@
 }
 .container .container-content button{
     padding: 7px 25px;
-}
-
-
-/* SECTION 2 */
-
-.content img{
-    max-width: 10%;
-}
-
-.content {
- text-align: center;
-}
-button{
-    padding: 7px 30px;
 }

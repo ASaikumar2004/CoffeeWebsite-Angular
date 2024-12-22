@@ -18,4 +18,7 @@ export class UsercardsComponent {
     this.router.navigate(['/desserts']);
   }
 
+  Specials():void{
+    this.router.navigate(['/specials']);
+  }
 }

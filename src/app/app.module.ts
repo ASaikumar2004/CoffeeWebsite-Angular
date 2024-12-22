@@ -17,6 +17,11 @@ import { FooterComponent } from './footer/footer.component';
 import { AccodianComponent } from './accodian/accodian.component';
 import { CoffeesubcardsComponent } from './coffeesubcards/coffeesubcards.component';
 import { DessertsComponent } from './desserts/desserts.component';
+import { SpecialsComponent } from './specials/specials.component';
+import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { Welcome1Component } from './welcome1/welcome1.component';
+import { Navbar1Component } from './navbar1/navbar1.component';
+import { Courosel1Component } from './courosel1/courosel1.component';
 
 @NgModule({
   declarations: [
@@ -32,7 +37,12 @@ import { DessertsComponent } from './desserts/desserts.component';
     FooterComponent,
     AccodianComponent,
     CoffeesubcardsComponent,
-    DessertsComponent
+    DessertsComponent,
+    SpecialsComponent,
+    PagenotfoundComponent,
+    Welcome1Component,
+    Navbar1Component,
+    Courosel1Component
   ],
   imports: [
     BrowserModule,

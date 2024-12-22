@@ -1,1 +1,41 @@
-<p>login works!</p>
+<div class="bg-image">
+    <div class="container-content">
+        <div class="heading">
+            <h1>Welcome Back</h1>
+            <p>Enter your account credentials to view your orders </p>
+        </div>
+        <form [formGroup]="formgroup" (ngSubmit)="onsubmit()">
+            <label for="Username">Email</label><br>
+           
+            <input type="text" class="form-control" name="email" placeholder="Enter Email" formControlName="email"><br>
+            <div *ngIf="formgroup.get('email')?.invalid && formgroup.get('email')?.touched">
+                <small *ngIf="formgroup.get('email')?.errors?.['required']">email is required</small>
+                <small *ngIf="formgroup.get('email')?.errors?.['email']">not an email</small>
+            </div>
+
+
+            <label for="password">Password:</label><br>
+            <input type="text" name="password" class="form-control" formControlName="password" placeholder="Enter password" required><br>
+
+            <div *ngIf="formgroup.get('password')?.invalid && formgroup.get('password')?.touched">
+                <small *ngIf="formgroup.get('password')?.errors?.['required']">password is required</small>
+                <small *ngIf="formgroup.get('password')?.errors?.['minlength']">password require min 8 characters</small>
+                <small *ngIf="formgroup.get('password')?.errors?.['maxlength']">password exceeded 15 characters</small>
+            </div>
+            <div class="forget">
+            <p><a href="">Forget Your Password?</a></p><br>
+        </div>
+            <div class="login">
+                <button type="submit" class="btn btn-success" [disabled]="formgroup.invalid">Log in</button><br>
+            </div>
+            <hr>
+            <div class="others">
+                <button type="button" class="btn btn-outline-primary">Sign in with facebook</button>
+                <button type="button" class="btn btn-outline-primary">Sign in with Google</button><br>
+            </div>
+            <div class="register">
+                <p>Dont't have an account.?<a href="">Register</a></p>
+            </div>
+        </form>
+    </div>
+</div>

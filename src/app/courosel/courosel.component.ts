@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-courosel',
@@ -6,5 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./courosel.component.css']
 })
 export class CouroselComponent {
+  constructor(private router:Router){}
+  
+  login():void{
+    this.router.navigate(['/login'])
+
+  }
 
 }
