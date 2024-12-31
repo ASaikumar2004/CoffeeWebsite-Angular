@@ -1,2 +1,28 @@
-<app-navbar></app-navbar>
+<section>
+    <div class="heading">
+        <h1>All Products</h1><br>
+        <form action="">
+            <input type="text" placeholder="product name">
+            <button class="btn btn-warning" type="submit">Search</button>
+        </form>       
+    </div>
+</section>
+
+
+
+<div class="container">
+    <div class="row row-cols-1 row-cols-md-4 g-4">
+        <div class="col" *ngFor="let card of cards">
+            <div class="card">
+                <img [src]="card.src" [alt]="card.alt">
+                <h1>{{ card.title | uppercase }}</h1>
+                <p>{{card.price | currency:'INR'}}</p>
+                <button class="btn btn-outline-warning">{{card.button }}</button>
+            </div>
+        </div>
+    </div>
+</div>
+
 <app-footer></app-footer>
+
+

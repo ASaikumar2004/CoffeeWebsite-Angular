@@ -5,6 +5,7 @@ export class Usercards {
     title!:string;
     desc!:string;
     desc1!:string;
+    price!:string;
     button!:string;
     name!:string;
     email!:string;

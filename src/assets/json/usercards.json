@@ -1,0 +1,130 @@
+[
+    {
+        "id": 1,
+        "title": "black arbica",
+        "src": "assets/json/black-Arbica.webp",
+        "alt": "image not loaded",
+        "price": "500",
+        "button": "Buy Now"
+    },
+    {
+        "id": 2,
+        "title": "bon appetit",
+        "src": "assets/json/Bon-Appetit.webp",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    },
+    {
+        "id": 3,
+        "title": "coffee cherry",
+        "src": "assets/json/coffe_cherry.jpg",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    },
+    {
+        "id": 4,
+        "title": "coffe-Arabica",
+        "src": "assets/json/coffe-Arabica.avif",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    },
+    {
+        "id": 5,
+        "title": "colombian-brew",
+        "src": "assets/json/colombian-brew.webp",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    },
+    {
+        "id": 6,
+        "title": "green coffee bean",
+        "src": "assets/json/green-coffee-bean_.avif",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    },
+    {
+        "id": 7,
+        "title": "GreenBrrew",
+        "src": "assets/json/GreenBrrew.webp",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    },
+    {
+        "id": 9,
+        "title": "Nema-coffee-beans",
+        "src": "assets/json/Nema-coffee-beans.webp",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    },
+    {
+        "id": 5,
+        "title": "colombian-brew",
+        "src": "assets/json/colombian-brew.webp",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    },
+    {
+        "id": 10,
+        "title": "Roasted-beans",
+        "src": "assets/json/Roasted-coffee.jpg",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    },
+    {
+        "id": 11,
+        "title": "bon appetit",
+        "src": "assets/json/Bon-Appetit.webp",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    },
+    {
+        "id": 12,
+        "title": "bon appetit",
+        "src": "assets/json/Bon-Appetit.webp",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    }
+    ,
+    {
+        "id": 13,
+        "title": "bon appetit",
+        "src": "assets/json/Bon-Appetit.webp",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    },
+    {
+        "id": 14,
+        "title": "coffee cherry",
+        "src": "assets/json/coffe_cherry.jpg",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    },
+    {
+        "id": 15,
+        "title": "colombian-brew",
+        "src": "assets/json/colombian-brew.webp",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    },    {
+        "id": 16,
+        "title": "colombian-brew",
+        "src": "assets/json/colombian-brew.webp",
+        "alt": "image not loaded",
+        "price": "300",
+        "button": "Buy Now"
+    }
+]

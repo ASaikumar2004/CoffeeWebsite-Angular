@@ -7,7 +7,7 @@
         <form [formGroup]="formgroup" (ngSubmit)="onsubmit()">
             <label for="Username">Email</label><br>
            
-            <input type="text" class="form-control" name="email" placeholder="Enter Email" formControlName="email"><br>
+            <input type="text" class="form-control" name="email" placeholder="Enter Email" formControlName="email">
             <div *ngIf="formgroup.get('email')?.invalid && formgroup.get('email')?.touched">
                 <small *ngIf="formgroup.get('email')?.errors?.['required']">email is required</small>
                 <small *ngIf="formgroup.get('email')?.errors?.['email']">not an email</small>
@@ -15,7 +15,7 @@
 
 
             <label for="password">Password:</label><br>
-            <input type="text" name="password" class="form-control" formControlName="password" placeholder="Enter password" required><br>
+            <input type="text" name="password" class="form-control" formControlName="password" placeholder="Enter password" required>
 
             <div *ngIf="formgroup.get('password')?.invalid && formgroup.get('password')?.touched">
                 <small *ngIf="formgroup.get('password')?.errors?.['required']">password is required</small>

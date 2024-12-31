@@ -1,5 +1,5 @@
 .bg-image{
-    background-image: radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../../assets/coffeeimages/login-background.avif");
+    background-image: radial-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url("../../assets/json/login-background.avif");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -46,4 +46,8 @@ input{
 }
 .register p a{
     color: #acaaaa;
+}
+
+small{
+    color: rgba(255, 0, 0, 0.534);
 }

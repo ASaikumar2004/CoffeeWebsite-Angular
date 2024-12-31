@@ -1,5 +1,5 @@
 .banner{
-    background-image: radial-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("../../assets/coffeeimages/welcomeimage.avif");
+    background-image:url("../../assets/json/welcome1image.avif");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
