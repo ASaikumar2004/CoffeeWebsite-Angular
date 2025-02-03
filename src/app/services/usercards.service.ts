@@ -12,5 +12,5 @@ export class UsercardsService {
 
   getall():Observable<any[]>{
     return this.http.get<any[]>(`${this.baseurl}`)
-  }
+  } 
 }
